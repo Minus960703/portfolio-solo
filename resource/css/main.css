@@ -180,7 +180,7 @@ ul, li {
 
 @media screen and (max-width: 1200px){
     .main_section {
-        margin: 3% 4%;        
+        margin: 0 auto;        
     }
     .main_section .second_section{       
         margin-right: 20px;      
@@ -203,21 +203,19 @@ ul, li {
         justify-content: center;
     }
     .nav .my_wrap .blog_section{
-        top: 450px;    
-        right: calc((100vw*0.75)*0.5);            
+        top: 450px;                   
+        right: calc((100%-142px)*0.34);           
     }
     .main_section {
-        margin: 3% 7%;
+        width: 90%;
         display: block;   
     }
-    .main_section .first_section{       
+    .main_section .first_section{               
         margin: 0 auto;        
-        margin-left: -20px;
-        width: 90%;        
+        width: 100%;
     }
     .main_section .second_section{       
         margin: 0 auto;        
-        margin-left: -20px;
-        width: 90%;        
+        width: 100%;
     }
 }
