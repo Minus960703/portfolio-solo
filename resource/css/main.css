@@ -180,10 +180,10 @@ ul, li {
 
 @media screen and (max-width: 1200px){
     .main_section {
-        margin: 0 auto;        
-    }
-    .main_section .second_section{       
-        margin-right: 20px;      
+        margin: 3% 4%;
+        transition: .4s;
+    }    
+    .main_section .second_section{               
         width: calc((100%-380px)*0.6);
     }
 }
@@ -207,6 +207,7 @@ ul, li {
         right: calc((100%-142px)*0.34);           
     }
     .main_section {
+        margin: 0 auto;        
         width: 90%;
         display: block;   
     }
