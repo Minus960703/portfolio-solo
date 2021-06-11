@@ -167,7 +167,30 @@ ul, li {
     transition: .2s;
     margin-bottom: 45px;
 }
-
+.main_section .second_section .container .maintext{
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+.main_section .second_section .container .maintext .subject{
+    color: #999;    
+    font-weight: 700;
+}
+.main_section .second_section .container .maintext .content{
+    color: #555;
+}
+.main_section .second_section .container .soloproject h3{
+    margin-left: 25px;
+    color: #555;
+}
+.main_section .second_section .container .svg_section {
+    display: flex;
+}
+.main_section .second_section .container .svg_section .svg_icons{
+    width: 20px;
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-top: 3px;
+}
 /* footer */
 .footer {    
     color: #fff;
