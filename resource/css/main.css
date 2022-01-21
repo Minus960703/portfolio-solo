@@ -76,9 +76,6 @@ ul, li {
     background-color: #c8c8b4;
     transition: .4s;
 }
-.nav .main_banner .my_wrap .my_homepage{
-
-}
 .nav .main_banner .my_wrap .my_homepage ul.icons{
     display: flex;
 }
@@ -223,17 +220,23 @@ ul, li {
         display: inline-block;
         height: 550px;
     }
-    .nav .logo{
-        margin: 25px auto 0px;        
+    .nav .main_banner {
+        display: block;
+        width: calc(100% - 16%);
     }
-    .nav .my_wrap {
-        text-align: center;        
+    .nav .main_banner .logo{
+        margin: 25px auto 0px;
     }
-    .nav .my_wrap .my_homepage ul.icons{
+    .nav .main_banner .my_wrap {
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+    }
+    .nav .main_banner .my_wrap .my_homepage ul.icons{
         justify-content: center;
     }
-    .nav .my_wrap .blog_section{
-        top: 450px;                   
+    .nav .main_banner .my_wrap .blog_section{
+        top: 125%;
         right: calc((100%-142px)*0.34);           
     }
     .main_section {
